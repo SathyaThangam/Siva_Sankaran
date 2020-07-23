@@ -15,7 +15,7 @@ const Register = () => {
 
   const registerUser = () => {
     if (email.length == 0 || username.length == 0 || password.length == 0) {
-      setWarn("All fields are mandatory");
+      setWarn("All are mandatory");
     } else {
       const headers = {
         "Content-Type": "application/json",
