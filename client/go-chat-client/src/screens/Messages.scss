@@ -1,0 +1,85 @@
+.top_card {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    padding: 30px 0 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+
+}
+
+.last_seen {
+    color: rgba(189, 16, 224, 0.5);
+}
+
+.text_image {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.left_img {
+    height: 80px;
+    width: 80px;
+}
+
+.right_img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.messages {
+    min-height: 100%;
+    background-color: white;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+
+
+}
+
+.send_message {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    max-width: 100%;
+    bottom: 10px;
+    right: 20px;
+    left: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+#sender {
+    height: 60px;
+    width: 90%;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 1.02rem;
+    border-radius: 15px;
+}
+
+.ico {
+    width: 50px;
+    height: 28px;
+}

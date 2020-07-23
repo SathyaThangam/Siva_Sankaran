@@ -1,0 +1,90 @@
+.chats_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my_chats {
+  color: rgba($color: #000000, $alpha: 0.8);
+  font-size: 2.5rem;
+  margin-left: 15px;
+}
+
+.chat_ico {
+  width: 60px;
+  height: 60px;
+  justify-self: self-end;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.prof_ico {
+  width: 57px;
+  height: 57px;
+  justify-self: self-end;
+  border: 3px solid #be57ff;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.end {
+  display: flex;
+}
+
+.badgeDiv {
+
+
+  .badge {
+    position: absolute;
+    top: 6px;
+    right: 12px;
+    background-color: #eb4d4b;
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, #be57ff, #71c9ff);
+  margin-left: 10%;
+}
+
+.empty {
+  max-width: 500px;
+  max-height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.emptyImage {
+  max-width: 95%;
+  max-height: 95%;
+}
+
+.warn2 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.gradientText {
+  text-align: center;
+  font-size: 1.4rem;
+  color: gray;
+}

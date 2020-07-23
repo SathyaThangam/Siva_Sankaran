@@ -1,0 +1,16 @@
+{
+  "name": "node-chat-erver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sockets.js",
+  "scripts": {
+    "start": "nodemon sockets.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.22.0",
+    "nodemon": "^2.0.4"
+  }
+}

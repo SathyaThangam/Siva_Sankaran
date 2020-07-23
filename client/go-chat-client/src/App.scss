@@ -1,0 +1,27 @@
+$myColor: #a29bfe;
+
+@font-face {
+  font-family: "Circular Std Bold";
+  src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot");
+  src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold")
+      format("svg");
+}
+h1 {
+  color: $myColor;
+  font-family: "Circular Std Bold";
+}
+p {
+  font-family: "Circular Std Bold";
+}
+input,
+button {
+  font-family: "Circular Std Bold";
+}

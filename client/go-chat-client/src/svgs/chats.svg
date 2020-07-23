@@ -1,0 +1,25 @@
+
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#71C9FF" offset="0%"></stop>
+            <stop stop-color="#BE57FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Day-71" transform="translate(-320.000000, -62.000000)">
+            <g id="Group-5" transform="translate(119.000000, 40.000000)">
+                <g id="Group-12" transform="translate(-1.000000, 1.000000)">
+                    <g id="Group-4">
+                        <g id="Group-3" transform="translate(202.586207, 21.551724)">
+                            <path d="M11.0837438,0 L11.0837438,0 C17.2051265,-1.12447976e-15 22.1674877,4.96236115 22.1674877,11.0837438 L22.1674877,11.0837438 C22.1674877,17.2051265 17.2051265,22.1674877 11.0837438,22.1674877 L11.0837438,22.1674877 C4.96236115,22.1674877 7.49653172e-16,17.2051265 0,11.0837438 L0,11.0837438 C-7.49653172e-16,4.96236115 4.96236115,1.12447976e-15 11.0837438,0 Z" id="Rectangle-2" fill="url(#linearGradient-1)"></path>
+                            <g id="message-square" transform="translate(6.157635, 6.157635)" fill="#FFFFFF">
+                                <path d="M9.85221675,6.5681445 C9.85221675,7.17272551 9.36210701,7.66283525 8.757526,7.66283525 L2.1893815,7.66283525 L0,9.85221675 L0,1.09469075 C0,0.490109743 0.490109743,0 1.09469075,0 L8.757526,0 C9.36210701,0 9.85221675,0.490109743 9.85221675,1.09469075 L9.85221675,6.5681445 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

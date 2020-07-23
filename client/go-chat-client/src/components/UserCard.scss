@@ -1,0 +1,51 @@
+.individuals {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.potrait_image {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  // position: relative;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
+  object-fit: cover;
+  cursor: pointer;
+  //   object-position: center;
+}
+
+.indi_name {
+  color: rgba($color: #000000, $alpha: 0.7);
+  font-size: 1.3rem;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.divider2 {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right,
+      rgba($color: #be57ff, $alpha: 0.3),
+      rgba($color: #71c9ff, $alpha: 0.3));
+  margin-left: 10%;
+}
+
+.badge3 {
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #be57ff, #71c9ff);
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+  right: 30px;
+}
