@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-
+// /import axiosConfig from "../config/axiosConfig";
 import { Redirect } from "react-router-dom";
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -13,7 +13,7 @@ const Login = () => {
       setWarn("All fields are mandatory");
     } else {
       axios
-        .post("http://localhost:6770/api/login", {
+        .post("/api/login", {
           email: email,
           password: password,
         })

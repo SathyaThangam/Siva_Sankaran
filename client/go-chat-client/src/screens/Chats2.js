@@ -19,7 +19,7 @@ const Chats2 = ({ id }) => {
   const updateSocket = () => {};
   const getmessages = () => {
     axios
-      .post("http://localhost:6790/api/profile", {
+      .post("/api/profile", {
         reciever: id,
       })
       .then((result) => {
@@ -27,11 +27,11 @@ const Chats2 = ({ id }) => {
         setProfile(result.data);
         // /setUnread(result.data.unread);
       });
-    axios.get(`http://localhost:6790/api/getmessages/${id}`).then((results) => {
+    axios.get(`/api/getmessages/${id}`).then((results) => {
       console.log(results.data);
       setUsers(results.data);
       axios
-        .post("http://localhost:6790/api/getunread", {
+        .post("/api/getunread", {
           reciever: id,
         })
         .then((res) => {
@@ -46,9 +46,7 @@ const Chats2 = ({ id }) => {
   };
 
   const getAllUsers = () => {
-    axios
-      .get(`http://localhost:6790/api/allusers/${id}`)
-      .then((result) => setAllUsers(result.data));
+    axios.get(`/api/allusers/${id}`).then((result) => setAllUsers(result.data));
     if (show == true) {
       setShow(false);
     } else {
@@ -72,7 +70,7 @@ const Chats2 = ({ id }) => {
       console.log(result.data.url);
       //setProfile(result.data.url);
       axios
-        .post("http://localhost:6790/update/profile", {
+        .post("/update/profile", {
           email: id,
           url: result.data.url,
         })

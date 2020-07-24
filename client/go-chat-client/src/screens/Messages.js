@@ -32,7 +32,7 @@ const Messages = (props) => {
 
     console.log(socket.id);
     axios
-      .post("http://localhost:6790/update/socket", {
+      .post("/update/socket", {
         sender: sender,
         socket: socket.id,
       })
@@ -86,13 +86,13 @@ const Messages = (props) => {
     //   reciever: result.data.reciever,
     // });
     axios
-      .post("http://localhost:6790/api/setunread", {
+      .post("/api/setunread", {
         receiver: receiver,
         sender: sender,
       })
       .then((res) => console.log(res));
     axios
-      .post("http://localhost:6790/api/socket", {
+      .post("/api/socket", {
         reciever: receiver,
       })
       .then((result) => {
@@ -108,13 +108,13 @@ const Messages = (props) => {
         });
       });
     axios
-      .post("http://localhost:6790/api/getchats", {
+      .post("/api/getchats", {
         sender: sender,
         receiver: receiver,
       })
       .then((result) => {
         axios
-          .post("http://localhost:6790/api/profile", {
+          .post("/api/profile", {
             Reciever: receiver,
           })
           .then((result) => {
@@ -169,7 +169,7 @@ const Messages = (props) => {
         }
 
         axios
-          .post("http://localhost:6790/api/socket", {
+          .post("/api/socket", {
             reciever: receiver,
           })
           .then((result) => {
