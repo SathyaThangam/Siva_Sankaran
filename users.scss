@@ -1,0 +1,73 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.forms {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(108, 92, 231, 1.0);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px gray;
+
+    h1 {
+        color: white;
+    }
+
+    .input {
+        max-width: 100%;
+        width: 250px;
+        height: 20px;
+        border: none;
+        outline: none;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .sub {
+        position: absolute;
+        cursor: pointer;
+        margin-bottom: 20px;
+        background-color: white;
+        width: 150px;
+        height: 40px;
+        padding: 8px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        border: 2px solid white;
+        color: rgba(108, 92, 231, 1.0);
+        font-size: 20px;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 2px 3px 20px gray;
+    }
+
+    .link {
+        color: white;
+    }
+
+
+}
+
+.errors {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    border: 2px solid rgba(255, 107, 129, 1.0);
+    transform: translateX(-50%);
+    max-height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(255, 107, 129, 1.0);
+    transition: all ease-in 0.8s;
+}

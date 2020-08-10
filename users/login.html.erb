@@ -1,0 +1,14 @@
+<div class="forms">
+<h1>Login</h1>
+<%= form_with(model: @user, local:true) do |f| %>
+    <%= f.text_field :email ,placeholder: "Email",class:"input"%>
+    <br><br>
+    <%= f.password_field :password ,placeholder: "Password",class:"input"%>
+    <br><br>
+    <%= f.submit "Signin", class:"sub",placeholder:"Login"%>
+<% end %>
+</div>
+<% if @user.errors.any? %>
+<div class="errors"><%= @user.errors.full_messages.to_sentence%></div>
+<% end %>
+</div>

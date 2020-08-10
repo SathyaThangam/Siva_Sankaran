@@ -1,0 +1,24 @@
+<div>
+
+<div class="forms">
+<h1>register.</h1>
+<%= form_with(model: @user, local:true) do |f| %>
+
+    
+    
+    <%= f.text_field :name ,placeholder: "Username", class:"input"%>
+    <br><br>
+    <%= f.text_field :email ,placeholder: "Email",class:"input"%>
+    <br><br>
+    <%= f.password_field :password ,placeholder: "Password",class:"input"%>
+    <br><br>
+    <%= f.password_field :password_confirmation ,placeholder: "Confirm Password",class:"input"%>
+    <br><br>
+    <%= f.submit class:"sub"%>
+<% end %>
+<%= link_to  "Already a user? Login in.", new_session_path, class:"link" %>
+</div>
+<% if @user.errors.any? %>
+<div class="errors"><%= @user.errors.full_messages.to_sentence%></div>
+<% end %>
+</div>
